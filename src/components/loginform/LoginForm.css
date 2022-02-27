@@ -1,0 +1,36 @@
+.login{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.login p{
+    color: grey;
+    font-size: 18px;
+    margin:10px 0 15px 0;
+}
+
+.login form div{
+    display: flex;
+    flex-direction: column;
+}
+
+.login form div label{
+    margin: 15px 0;
+}
+
+.login form div input{
+    border: 2px solid silver;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.login button{
+    margin: 40px 0;
+    width: 100%;
+    padding: 7px 0;
+    background-color: rgb(60, 89, 255);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
